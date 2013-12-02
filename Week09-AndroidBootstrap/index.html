@@ -1,0 +1,193 @@
+<!DOCTYPE HTML>
+<html ng-app="elvenApp">
+	<head>
+		<meta charset="utf-8" />
+		<title>Android Bootstrap</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="Images/favicon.png">
+		<!-- Latest compiled and minified CSS -->
+		<link href="Style/bootstrap.css" rel="stylesheet" >
+		<!-- link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet" -->
+		<!-- Optional theme -->
+		<link href="Style/Carousel.css" rel="stylesheet" type="text/css" />
+		<link href="Style/index.css" rel="stylesheet" type="text/css" />
+		<!-- Latest compiled and minified JavaScript - Move to bottom of body element -->
+		<script src="Source/jquery.js"></script>
+		<script src="Source/bootstrap.min.js"></script>
+		<script src="Source/angular.js"></script>
+		<script src="Source/angular-resource.js"></script>
+		<script src="Source/MongoData.js"></script>
+		<script src="Source/index.js"></script>
+		
+	</head>
+	<body>
+		
+		<!-- Nav Bar
+		================================================== -->
+
+		<div class="navbar-wrapper">
+		<div class="container">
+
+		<div class="navbar navbar-inverse navbar-static-top">
+		  <div class="container">
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon-bar"> </span>
+				<span class="icon-bar"> </span>
+				<span class="icon-bar"> </span>
+			  </button>
+			  <a class="navbar-brand" href="#">Android Bootstrap</a>
+			</div>
+			<div class="navbar-collapse collapse">
+			  <ul class="nav navbar-nav">
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="pictures.html">Pictures</a></li>
+				<li><a href="about.html">About</a></li>
+				<li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+				  <ul class="dropdown-menu">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="pictures.html">Pictures</a></li>
+					<li><a href="about.html">About</a></li>
+				  </ul>
+				</li>
+			  </ul>
+			</div>
+		  </div>
+		</div>
+
+		</div>
+		</div> <!-- Navbar wrapper -->
+				
+		<!-- Carousel
+        ================================================== -->
+        <div id="myCarousel" class="carousel slide">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="Images/Image140X140A.png"#777:#7a7a7a alt="First slide">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Click to see the <a href="#feature01">Android Customization 01</a></h1>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="Images/Image140X140B.png" alt="Second slide">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Click to see the <a href="#feature02">Android Customization 02</a></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="Images/Image140X140C.png" alt="Third slide">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Click to see the <a href="#feature03">Android Customization 03</a></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="carousel-arrows">&#5595;</span></a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="carousel-arrows">&#5593;</span></a>
+        </div><!-- /.carousel -->
+
+
+		<div class="container">
+			<div class="starter-template">
+				<h1>Android Tablets</h1>
+				<div id='drawHere01' class='draw-target'></div>
+				<p class="lead">On this page you will find information about my experiences with an Asus Memo Pad (ASUS ME173X).</p>
+			</div>
+		<h1>About this Tablet:</h1>	
+		<table>
+		    <tr>
+		        <td>Memory</td>
+		        <td style="text-align:right">11.82 GB</td>
+		    </tr>
+		    <tr>
+		        <td>Processor</td>
+		        <td style="text-align:right">i.MX</td>
+		    </tr>
+		    <tr>
+		        <td>Screen Size</td>
+		        <td style="text-align:right">496 x 794</td>
+		    </tr>
+		    <tr>
+		        <td>Android version</td>
+		        <td style="text-align:right">4.2.1</td>
+		    </tr>
+		    <tr>
+		        <td>Serial Number</td>
+		        <td style="text-align:right">D60KCY046737</td>
+		    </tr>
+		</table>
+
+ <!-- START THE FEATURETTES -->
+
+      <hr id="feature01" class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Android Customizations. <span class="text-muted">Feature 01.</span></h2>
+          <p class="lead">This page was added to the Android Settings by Asus, the company that makes
+          this tablet. Here you can tweak various options, such as screenshots, gamer options, power options,
+          scrolling options, and Asus specific hardware such as the trans cover. To see a full sized image, right 
+          click the image and choose <strong>View Image</strong> or <strong>Open image in new tab</strong>.
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="https://lh3.googleusercontent.com/-eJiS6ts6f4M/UpVOVXT5_GI/AAAAAAAAAFw/kD4v9esSsM4/w497-h794-no/Screenshot_2013-11-26-17-40-12.jpg" alt="ASUS Customized Settings page" />
+        </div>
+      </div>
+
+      <hr  id="feature02" class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="https://lh4.googleusercontent.com/-LxCY38NLpWI/UpVOWNP_KqI/AAAAAAAAAGA/2ehef99A25I/w497-h794-no/Screenshot_2013-11-26-17-40-03.jpg" alt="Settings page" />
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Android Settings Page. <span class="text-muted">Feature 02.</span></h2>
+          <p class="lead">This is the general settings page for the Android tablet. Here you can change certain settings by turning the Wi-Fi or 
+              Bluetooth on and off. Additionally, it links to other settings pages for sound, display, storage, battery, apps, power management,
+              and ASUS customized settings, which you can see in the previous image. Also, there are personal settings including location access, 
+              security, language and input, and reset.
+          </p>
+        </div>
+      </div>
+
+      <hr  id="feature03" class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">The Home Screen. <br /><span class="text-muted">Feature 03.</span></h2>
+          <p class="lead">This is the home screen, which you will see after you turn the tablet on. You can access this screen any time by tapping the house
+              icon in the center of the bottom row of the screen. It currently is set to the default wallpaper, which is a nice picture of a blue sky
+              and clouds. If you don't like the wallpaper or get tired of it, you can easily change it by going to the display settings. On the home
+              screen you can see the current time and date, the weather in your current location, and the temperature. You can also do a google search
+              by typing your search keywords in the box near the top of the home screen. Finally, you can see a list of all your apps by tapping the 
+              circle just above the house icon.
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="https://lh4.googleusercontent.com/-X4Lc_XjIVjc/UpVOWtgVfBI/AAAAAAAAAG4/EdYh7uakjxo/w497-h794-no/Screenshot_2013-11-26-17-39-45.jpg" alt="Home Screen" />
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+		</div><!-- /.container -->
+
+	</body>
+</html>
